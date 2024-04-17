@@ -3,7 +3,7 @@ class Main{
     System.out.print("FSH");
   }
   public static void lake(int temp){
-    if(temp > 65){
+    if(temp > 75){ //changed temp
       System.out.print(" ><)))> ");
       temp -= 1;
       lake(temp);
